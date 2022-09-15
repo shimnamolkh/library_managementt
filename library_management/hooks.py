@@ -2,10 +2,10 @@ from . import __version__ as app_version
 
 app_name = "library_management"
 app_title = "Library Management"
-app_publisher = "shimna"
-app_description = "management system"
-app_email = "fghjkl"
-app_license = "MIT"
+app_publisher = "ghjk"
+app_description = "fghjkl"
+app_email = "ghjk"
+app_license = "ghj"
 
 # Includes in <head>
 # ------------------
