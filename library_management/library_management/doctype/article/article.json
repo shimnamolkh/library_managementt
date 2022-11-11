@@ -1,16 +1,19 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2022-09-15 16:47:10.832038",
+ "autoname": "field:article_name",
+ "creation": "2022-09-16 09:13:11.011165",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "article_name",
   "image",
+  "column_break_8",
   "author",
   "description",
   "isbn",
+  "section_break_7",
   "status",
   "publisher"
  ],
@@ -20,7 +23,8 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Article Name",
-   "reqd": 1
+   "reqd": 1,
+   "unique": 1
   },
   {
    "fieldname": "image",
@@ -52,14 +56,23 @@
    "fieldname": "publisher",
    "fieldtype": "Data",
    "label": "Publisher"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-09-15 16:47:10.832038",
+ "modified": "2022-09-16 12:05:47.224112",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
